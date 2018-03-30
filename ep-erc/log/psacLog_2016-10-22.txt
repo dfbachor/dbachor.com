@@ -1,0 +1,20 @@
+2016-10-22 12:05:15pm -- User uadmin logged on from Cookie!
+2016-10-22 12:05:29pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:05:29pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:05:29pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:05:29pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:05:31pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:05:31pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:05:35pm -- User uadmin logged on from dropdown
+2016-10-22 12:09:36pm -- User uadmin logged on from Cookie!
+2016-10-22 12:09:36pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:09:36pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:11:58pm -- User uadmin logged on from Cookie!
+2016-10-22 12:11:58pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:11:58pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:13:51pm -- User uadmin logged on from Cookie!
+2016-10-22 12:13:51pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:13:51pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-22 12:18:25pm -- User uadmin logged on from Cookie!
+2016-10-22 12:18:25pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-22 12:18:25pm -- system request for systemID: 1 from IP: 127.0.0.1

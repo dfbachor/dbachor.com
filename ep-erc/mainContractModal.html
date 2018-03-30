@@ -1,0 +1,352 @@
+<!-- Contract Modal popup ------------------------------------------- -->
+<!-- Contract Modal popup ------------------------------------------- -->
+<!-- Contract Modal popup ------------------------------------------- -->
+<!-- Contract Modal popup ------------------------------------------- -->
+<div class="modal fade" id="contractsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role='document'>
+		<div class="modal-content">
+            
+            <div class="modal-header">
+	            <div class='row'>
+	            	<button type="button" class="close" data-dismiss="modal" onclick="closeContractModal();">&times;</button>
+			        <img class='companyLogo col-xs-2'src="photos/default.jpg" height='50' width='50'>
+					<h4 id='erc_headerTitle' class="modal-title" id="addContractModalLabel">Add Equipment Rental Contract</h4>
+	            </div>
+			</div>
+            
+            <div class="modal-body" id="equipmentRentalContractModalBody">
+				<form class="form-vertical" role="form" id="addContractForm"> 
+<!--
+		            <div class="row">
+			            <div class="col-xs-12">
+			            	<h3>Name</h3>
+			            </div>
+		            </div>
+-->
+
+		            <div class="row">
+					    <div class="form-group col-xs-3">
+					        <label for="erc_firstName" class="control-label">First<strong style="color:darkred;">*</strong></label>
+					        <input type="text" value='' class="form-control input-sm" id="erc_firstName" name="firstName" placeholder="John">
+					        <span class="error">Required</span>
+					    </div>
+					    <div class="form-group col-xs-2">
+					        <label for="erc_initial" class="control-label">Initial</label>
+					        <input type="text" maxlength='1' value='' class="form-control input-sm" id="erc_initial" name="initial" placeholder="M">
+					    </div>						
+
+						<div class="form-group col-xs-3">
+					        <label for="erc_lastName" class="control-label">Last<strong style="color:darkred;">*</strong></label>
+					        <input type="text" value='' class="form-control input-sm" id="erc_lastName" name="lastName" placeholder="Doe">
+					        <span class="error">Required</span>
+					    </div>
+					    <div class="form-group col-xs-4">
+					        <label for="erc_cellPhone" class="control-label">Cell Phone<strong style="color:darkred;">*</strong></label>
+					        <input type="text" pattern="[0-9]*" value='' class="form-control input-sm bfh-phone" data-country="US" id="erc_cellPhone" name="cellPhone" >
+					        <span class="error">Required</span>
+					    </div>	
+		            </div>
+					    
+<!--
+		            <div class="row">
+			            <div class="col-xs-12">
+			            	<h3>Address</h3>
+			            </div>
+		            </div>
+-->
+		            
+		            <div class="row">
+						<div class="form-group col-xs-4">
+					        <label for="erc_street" class="control-label">Address<strong style="color:darkred;">*</strong></label>
+					        <input type="text" value='' class="form-control input-sm" id="erc_street" name="street" placeholder="123 your street">
+					        <span class="error">Required</span>
+					    </div>
+					    <div class="form-group col-xs-3">
+					        <label for="erc_city" class="control-label">City<strong style="color:darkred;">*</strong></label>
+					        <input type="text" value='' class="form-control input-sm" id="erc_city" name="city" placeholder="city">
+					        <span class="error">Required</span>
+					    </div>
+					    <div class="form-group col-xs-3">
+					        <label for="erc_state" class="control-label">State<strong style="color:darkred;">*</strong></label>
+<!-- 					        <input type="text" value='' class="form-control input-sm" id="erc_state"  name="state" placeholder="state"> -->
+
+							<select class="form-control selectpicker input-sm" id="erc_state" name="state">
+									<option value=".">Select State</option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="DC">District Of Columbia</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>							
+						</select>
+							
+					        <span class="error">Required</span>
+					    </div>						
+					    <div class="form-group col-xs-2">
+					        <label for="erc_zip" class="control-label">Zip<strong style="color:darkred;">*</strong></label>
+					        <input type="text" pattern="[0-9]*"  value='' class="form-control input-sm" id="erc_zip" name="zip" placeholder="12345">
+					        <span class="error">Required</span>
+					    </div>	
+		            </div>
+		            
+		            
+		            
+		            
+		            <div class="row">
+						<div class="form-group col-xs-4">
+					        <label for="erc_weight" class="control-label">Weight<strong style="color:darkred;">*</strong></label>
+<!-- 					        <input type="text" value='' pattern="[0-9]*" class="form-control input-sm" id="erc_weight" name="weight" placeholder="lbs"> -->
+					        
+					        
+								<select class="form-control selectpicker input-sm" id="erc_weight" name="weight">
+									<option value=".">Select Weight Range</option>
+									<option value="22-29 lbs (10-13 kg)">22-29 lbs (10-13 kg)</option>
+									<option value="30-38 lbs (14-17 kg)">30-38 lbs (14-17 kg)</option>
+									<option value="39-47 lbs (18-21 kg)">39-47 lbs (18-21 kg)</option>
+									<option value="48-56 lbs (22-25 kg)">48-56 lbs (22-25 kg)</option>
+									<option value="57-66 lbs (26-30 kg)">57-66 lbs (26-30 kg)</option>
+									<option value="67-78 lbs (31-35 kg)">67-78 lbs (31-35 kg)</option>
+									<option value="79-91 lbs (36-41 kg)">79-91 lbs (36-41 kg)</option>
+									<option value="92-107 lbs (42-48 kg)">92-107 lbs (42-48 kg)</option>
+									<option value="108-125 lbs (49-57 kg)">108-125 lbs (49-57 kg)</option>
+									<option value="126-147 lbs (58-66 kg)">126-147 lbs (58-66 kg)</option>
+									<option value="148-174 lbs (67-78 kg)">148-174 lbs (67-78 kg)</option>
+									<option value="175-209 lbs (79-94 kg)">175-209 lbs (79-94 kg)</option>
+									<option value="210+ lbs (95+ kg)">&#8805 210 lbs (&#8805 95+ kg)</option>
+								</select>
+					        
+					        <span class="error">Required</span>
+					    </div>
+					    
+						<div class="form-group col-xs-1">
+						</div>
+					    
+					    <div class="form-group col-xs-3">
+					        <label for="erc_height" class="control-label">Height<strong style="color:darkred;">*</strong></label>
+					        <select class="form-control selectpicker input-sm" id="erc_height" name="height">
+									<option value="">Select Height Range</option>
+									<option value="410">&#8804 4'10" (&#8804 148 cm)</option>
+									<option value="411 51">4'11"-5'1" (149-157 cm)</option>
+									<option value="52 55">5'2"-5'5" (158-166 cm)</option>
+									<option value="56 510">5'6"-5'10" (167-178 cm)</option>
+									<option value="511 64">5'11"-6'4" (179-194 cm)</option>
+									<option value="65">&#8805 6'5" (&#8805 195 cm)</option>										</select>
+					        <span class="error">Required</span>
+					    </div>
+
+						<div class="form-group col-xs-1">
+						</div>
+
+					    <div class="form-group col-xs-2">
+					        <label for="erc_age" class="control-label">Age<strong style="color:darkred;">*</strong></label>
+					        					        
+								<select class="form-control selectpicker input-sm" id="erc_age" name="age">
+									<option value=".">Select Age Range</option>
+									<option value="0-9">0-9</option>
+									<option value="10-19">10-19</option>
+									<option value="20-29">20-29</option>
+									<option value="30-39">30-39</option>
+									<option value="40-49">40-49</option>
+									<option value="50-59">50-59</option>
+									<option value="60+">60+</option>
+								</select>
+
+
+					        <span class="error">Required</span>
+					    </div>		
+		            </div> <!-- end row -->
+		            
+		            <div class="row">
+					    <div class="form-group col-xs-6">
+					        <label for="erc_emailAddress" class="control-label">Email Address</label>
+					        <input type="email" value='' class="form-control input-sm" id="erc_emailAddress"  name="emailAddress" placeholder="johndoe@domain.com">
+					    </div>		
+		            </div> <!-- end row -->
+
+		            <div class="row">
+						<div class="form-group col-xs-4">
+							<label for="erc_skierType" class="control-label">Skier Type</label> 
+								<select class="form-control selectpicker input-sm" id="erc_skierType" name="skierType">
+									<option value=".">Select Type</option>
+									<option value="-I - Newbie">-I - Newbie</option>
+									<option value="I - Beginner">I - Beginner</option>
+									<option value="II - Intermediate">II - Intermediate</option>
+									<option value="III - Expert">III - Expert</option>
+									<option value="III+ - Super Expert">III+ - Super Expert</option>
+								</select>
+						</div>
+
+						<div class="form-group col-xs-1">
+						</div>
+						
+						<div class="form-group col-xs-5">
+							<label for="erc_snowboardStance" class="control-label">Snowboard Stance</label> 
+								<select class="form-control selectpicker input-sm" id="erc_snowboardStance" name="snowboardStance">
+									<option value=".">Select Stance</option>
+									<option value="Regular">Regular</option>
+									<option value="Goofy Foot">Goofy Foot</option>
+								</select>
+						</div>
+						
+<!--
+						<div class="form-group">
+							<label for="erc_completeDate" class="control-label col-sm-3">Complete Date:</label> 
+							<div class="col-sm-3">
+								<div class="input-group date" id='completeDatepicker'>
+								    <input type="text" id="erc_completeDate" name="completeDate" height='20' placeholder="yyyy-mm-dd">
+								</div>
+							</div>
+						</div>	
+-->
+						
+						
+						
+						
+		            </div> <!-- end row -->
+				</form>	
+            </div> <!-- class="modal-body"> -->
+            
+            <div class="modal-footer">
+		            <div style="float: left">
+		            	<small>
+		            		<a href='#' id='AgreementContractLink' data-toggle="modal" data-target="#agreementContractModal">Agreement that you will be asked to sign.</a>
+		            	</small>
+		            </div>
+					<div id="contractSubmit">
+						<input type="button" class="btn btn-default" data-dismiss="modal" onclick="closeContractModal()" value="Close" />
+
+						<input id="submitContractButton" type="button" class="btn btn-info" value="Add Contract" />
+					</div>
+			</div>
+			
+		</div>
+  </div>
+</div>
+<!--  end add Contract Popup -->
+
+<!-- contract Note Modal Popup ---------------------------------------------
+this window will not show until requested from the edit note link item -->
+
+<div class="modal fade" id="addContractNoteModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myContractNoteModalLabel">Contract Note</h4>
+            </div>
+            <div class="modal-body">
+			
+				<form class="form-horizontal" role="form" id="contractNoteForm"> 
+					
+					<div class="form-group">
+						<label for="contractNoteTextarea" class="control-label col-sm-2">Note:</label> 
+						<div class="col-sm-10">
+							<textarea id='contractNoteTextarea' rows='4' cols='55' maxlength='1056' onkeydown="if (event.keyCode == 13) document.getElementById('contractNoteSubmit').click()"></textarea>
+						</div>
+					</div>
+				</form>				
+            </div>
+
+            <div class="modal-footer">
+            		<br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button id="contractNoteSubmit" class="btn btn-primary" onclick="saveContractNote()">Save Note</button>
+			</div>
+		</div>
+  </div>
+</div>
+<!--  end contract Note Modal Popup -->
+
+
+
+<!-- Agreement Contract Popup ---------------------------------------------
+this window will not show until requested from the edit note link item -->
+
+<div class="modal fade" id="agreementContractModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+            <div class="modal-header">
+				<div class='row'>            
+		            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		            <img class='col-xs-2'src="img/petersonSkiAndCycle.jpg" height='50' width='50'>
+		            <h4 id='erc_agreementHeaderTitle' class="modal-title" id="AgreementContractModalHeader">Peterson's Ski and Cycle - Equipment Rental Agreement</h4>
+				</div>
+            </div>
+            <div class="modal-body">
+	            
+	            
+	            <div id="agreementContractDiv">
+					<div>
+					    <p>
+					      I have accurately represented the above listed information and it is true and correct. I will not use any of the equipment to be provided to me during this transaction until I have received instruction on its use and I fully understand its use and function. I agree to verify that the visual indicator settings to be recorded on this form for downhill ski equipment agree with the number appearing in the visual indicator windows of the equipment to be listed on this form.
+					    </p>
+					    <p>I understand that the binding system cannot guarantee the user's safety. In downhill skiing, the binding system will not release at all times or under all circumstances where release may prevent injury or death, nor is it possible to predict every situation in which it will release. In snowboarding, cross-country skiing, ski-boarding, show-shoeing and other sports utilizing equipment with non-release bindings, the binding system will not ordinarily release during use; these bindings are not designed to release as a result of forces generated during ordinary operation.
+					    </p>
+						<p>I understand that the sports of skiing, snowboarding, ski-boarding, snowshoeing and other sports (collectively "RECREATIONAL SNOW SPORTS") involve inherent and other risks of INJURY and DEATH. I voluntarily agree to expressly assume all risks of injury or death that may result from these RECREATIONAL SNOW SPORTS, or which relate in any way to the use of this equipment.
+						</p>
+						<p>I understand that a helmet designed for RECREATIONAL SNOW SPORTS use will help reduce the risk of some types of injuries to the user at slower speeds. I recognize that serious injury or death can result from both low and high energy impacts, even when a helmet is worn.
+						</p>
+						<p>I AGREE TO RELEASE AND HOLD HARMLESS the equipment rental facility, its employees, owners, affiliates, agents, officers, directors, and the equipment manufacturers and distributors and their successors in interest (collectively "PROVIDERS"), from all liability for injury, death. property loss and damage which results from the equipment user's participation in the RECREATIONAL SNOW SPORTS for which the equipment is provided, or which is related in any way to the use of this equipment, including all liability which results from the NEGLIGENCE of PROVIDERS, or any other person or cause.
+						</p>
+						<p>I further agree to defend and indemnify PROVIDERS for any or damage, including any that results from claims or lawsuits for personal injury, death, and property loss and damage related in any way to the use of this equipment.
+This agreement is governed by the applicable law of this state or province. If any provision of this agreement is determined to be unenforceable, all other provisions shall be given full force and effect.
+						</p>
+					  </div>	  
+	            </div> <!-- privacyPolicyDiv -->
+			
+            </div>
+
+            <div class="modal-footer">
+            		<br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				
+			</div>
+		</div>
+  </div>
+</div>
+<!--  end privacy Modal Popup -->

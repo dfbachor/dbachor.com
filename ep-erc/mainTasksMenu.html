@@ -1,0 +1,171 @@
+	    	<!-- Tasks Menu ------------------------ -->
+	    	<!-- Tasks Menu ------------------------ -->
+	    	<!-- Tasks Menu ------------------------ -->
+	    	<!-- Tasks Menu ------------------------ -->
+	    	
+	    	<div id="tasksMenu" class="tab-pane fade in">
+		      	<div class="container col-sm-7">
+				  <div class="row">
+				      <div class="panel panel-default panel-success">
+				        <div class="panel-heading" style="height: 50px; padding: 5px">
+		
+				       						
+			        	<div class="col-sm-9" style="height: 50px;">
+							<span class='dataTableHeaderTitle' id='tasksTitle'>Tasks (<span id='tasksCount'></span>)</span>
+				        </div>
+			        	<div class="col-sm-3" style="height: 50px;">
+			            	<a href='#' id='tasksAddTasks' data-toggle="modal" data-target="#tasksModal">Add Task</a>
+				        </div>
+
+
+				        </div>
+					  <table id="tasksTable" class="table table-striped table-bordered table-hover table-condensed" cellspacing="0" width="100%">
+						<thead>
+				          <tr>
+				             <th>Task</th>
+				             <th>Assigned To</th>
+				             <th>Open Date</th>
+				             <th>Status</th>
+				          </tr>
+				        </thead>
+				        <tfoot>
+				          <tr>
+				             <th>Task</th>
+				             <th>Assigned To</th>
+				             <th>Open Date</th>
+				             <th>Status</th>
+				        </tr>
+				        </tfoot>
+				        <tbody id='taskListing'>
+					        
+				        </tbody>
+				      </table>
+				    </div>
+				  </div>
+		 	  </div>	
+		 	  
+		 	  <!-- Tasks DETAIL ------------- -->
+		  	  <div class="container col-sm-5">
+			  	<div class="row">
+				  	<div class="panel panel-default panel-success">
+			        	<div class="panel-heading col-sm-2" style="height: 50px; padding: 1px">
+				            	<img class="companyLogo" id="taskPhoto" src="photos/default.jpg" height='48' width='48'>
+				        </div>
+			        	<div class="panel-heading col-sm-8" style="height: 50px;">
+				            <h5 id='tasksDetailTitle'>Task Detail</h5> 
+				        </div>
+			        	<div class="panel-heading col-sm-2" style="height: 50px;">
+				            <span id='editTaskLink'></span> 
+				            <span class='admin' id='deleteTaskLink'></span> 
+				        </div>
+				  	</div>
+				  	
+			  	</div>
+			  	<div class="row">
+			  		<div class="container col-sm-12">
+					  <div class="panel-group" id="tasksAccordion">
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a class="accordion-toggle" data-toggle="collapse" data-parent="#tasksAccordion" href="#tasksCollapse1">Task Information</a>
+					        </h4>
+					      </div>
+					      <div id="tasksCollapse1" class="panel-collapse collapse in">
+					        <div class="panel-body">
+						        <div id='taskDetail'>
+								</div>
+					        </div>
+					      </div>
+					    </div>
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a id="taskNotesTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#tasksAccordion" href="#tasksCollapse2">Tasks Notes</a>
+					        </h4>
+					      </div>
+					      
+					      <div id="tasksCollapse2" class="panel-collapse collapse">
+					        <div class="panel-body">
+					        	<p><a href='#' data-toggle="modal" data-target="#addTaskNoteModal">
+									Add Note
+								</a></p>
+								<div id='taskNotesListing'>
+									<table>
+								            <thead>
+								                <tr>
+								                    <th width="200">Notes</th>
+								                    <th width="200">Date Time</th>
+								                    <th width="25"></th>
+								                </tr>
+								            </thead>
+								    </table>
+		
+									<div style="max-height: 200px; overflow: auto;">
+								        <table id="taskNotesTable">
+								            <tbody id="taskNotesTableBody">
+		
+								            </tbody>
+								        </table>
+									</div>
+								</div>
+					        </div>
+					      </div>
+					    </div>
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a id="tasksAboutTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#tasksAccordion" href="#tasksCollapse3">About</a>
+					        </h4>
+					      </div>
+					      
+					      <div id="tasksCollapse3" class="panel-collapse collapse">
+					        <div class="panel-body">
+						        <ul class="seedBullet">
+							        <li>
+							        	An Tasks is any action that needs to be complete.
+									</li>
+									<li>
+										Each Task is listed in the table on the left - by clicking on a specific Task, its details will appear on the right.
+									</li>
+									<li>
+										To add a new Task, click on the<a href='#' id='tasksAddTasks' data-toggle="modal" data-target="#tasksModal"> Add Task </a> Add Task </a>link at the top of the Task list.
+									</li>
+									<li>
+										Mostly likely a User will only need to enter the task and hit enter - defaults are listed below
+									</li>
+									<li>
+										A task will default to the current user but can be change to assign the task to another user
+									</li>
+									<li>
+										A task will default to the current date for the open date but can be changed
+									</li>
+									<li>
+										A task will default to the the Open status but can be changed
+									</li>
+									<li>
+										To edit an Task, select the Task from the list on the left, click the Edit link will appear at the top of the Task Information section. 
+									</li>
+									<li>
+										To delete a Task, select the Task from the list on the left, click the Delete link at the top of the Task Information section.  
+									</li>
+									<li>
+										The Task Information section displays all of the details for the Task. 
+									</li>
+									<li>
+										The Task Notes section enables you to enter in notes for this Task.
+									</li>
+									<li>
+										Only a User with Administrator role can delete a task.
+									</ul>
+					        </div> <!-- panel-body -->
+					      </div> <!-- growCollapse3 -->					      
+					    </div> <!-- panel panel-default -->
+					    
+					  </div> 
+					</div>
+				</div>
+		  	  </div>
+			</div> <!-- end Tasks menu -->

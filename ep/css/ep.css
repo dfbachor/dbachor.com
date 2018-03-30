@@ -1,0 +1,93 @@
+
+* {
+/* 	outline:	1px solid red; */
+}
+
+
+#erc_agreementHeaderTitle {
+	font-size: 100%;
+}
+
+#erc_headerTitle {
+	font-size: 100%;
+}
+
+#addContractModal .form-group {
+	margin-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+
+#addContractModal .modal-header {
+/* 	background-color:	lime; */
+	height:	70px;
+}
+
+
+#addContractForm {
+	padding:	5px;
+}
+
+#addContractForm label {
+	color:	gray;
+	font-size:	75%;
+	font-style:	italic;
+}
+
+#addContractForm input {
+}
+
+@media (max-width: @screen-xs-min) {
+  .modal-xs { width: @modal-sm; }
+}
+
+#equipmentRentalContractModalBody {
+/* 	padding:	0px; */
+/*
+	background-image: 		url('../img/skis.jpg');
+	background-position:	bottom right;
+	background-repeat: 		no-repeat;
+*/
+/* 	opacity:	1; */
+}
+
+#agreementContractDiv {
+    text-align:left;
+    /* margin:0 auto; */
+    margin-left: 1px;
+    margin-bottom:1px;
+    padding:10px;
+    background:#fff;
+    height:320px;
+    width: auto;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+    
+
+
+.error {
+	font-size:	55%;
+	display: none;
+	margin-left: 5px;
+}		
+		
+.error_show{
+	color: red;
+	margin-left: 5px;
+	font-size: 10px;
+}
+		
+input.invalid, textarea.invalid, select.invalid {
+	border: 2px solid red;
+}
+		
+input.valid, textarea.valid, select.valid {
+	border: 2px solid green;
+}
+
+
+
+
+
+

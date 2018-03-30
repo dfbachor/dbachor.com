@@ -1,0 +1,50 @@
+2017-08-12 02:23:14pm -- addUsersuccess
+2017-08-12 02:25:15pm -- addUsersuccess
+2017-08-12 02:32:29pm -- addUser: firstname: w`w
+2017-08-12 02:47:59pm -- addUser: firstname: jug
+2017-08-12 02:50:22pm -- addUser: firstname: Pete
+2017-08-12 03:11:53pm -- addUser: firstname: Pete
+2017-08-12 03:21:42pm -- addUser: firstname: sue
+2017-08-12 03:40:22pm -- addUser: firstname: he
+2017-08-12 03:44:20pm -- addUser: firstname: tom
+2017-08-12 03:56:33pm -- addUser: firstname: led
+2017-08-12 03:56:51pm -- addUser: firstname: led
+2017-08-12 03:58:04pm -- addUser: firstname: Sam
+2017-08-12 04:00:27pm -- addUser: firstname: aaA
+2017-08-12 04:00:42pm -- addUser: firstname: b
+2017-08-12 04:03:24pm -- addUser: firstname: c
+2017-08-12 04:04:16pm -- addUser: firstname: c
+2017-08-12 04:12:21pm -- addUser: firstname: aAA
+2017-08-12 04:12:41pm -- addUser: firstname: t
+2017-08-12 04:13:51pm -- addUser: firstname: b
+2017-08-12 04:20:33pm -- addUser: firstname: ok
+2017-08-12 04:22:00pm -- addUser: firstname: p
+2017-08-12 04:28:46pm -- addUser: firstname: l
+2017-08-12 04:56:10pm -- addUser: firstname: z
+2017-08-12 04:59:19pm -- addUser: firstname: xxx
+2017-08-12 05:55:44pm -- addUser: firstname: hi
+2017-08-12 05:56:55pm -- addUser: firstname: hi
+2017-08-12 05:57:42pm -- addUser: firstname: j
+2017-08-12 05:59:34pm -- addUser: firstname: Fred
+2017-08-12 06:50:14pm -- addUser: firstname: hhhjjhh
+2017-08-12 06:50:40pm -- addUser: firstname: max
+2017-08-12 06:50:50pm -- addUser: firstname: max
+2017-08-12 06:54:59pm -- addUser: firstname: ok
+2017-08-12 10:09:47pm -- updateUser.php : Failed to update: updateUser: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5
+2017-08-12 10:09:47pm -- update updateuser.php : Failed to run query: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5
+2017-08-12 10:10:30pm -- updateUser.php : Failed to update: updateUser: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5
+2017-08-12 10:10:30pm -- update updateuser.php : Failed to run query: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5
+2017-08-12 10:11:37pm -- updateUser.php : Failed to update: updateUser: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5
+2017-08-12 10:11:37pm -- update updateuser.php : Failed to run query: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'role = 'a'						 
+								email = 'dave@dfbiii.com'						 
+						where ID = NULL' at line 5

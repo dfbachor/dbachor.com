@@ -1,0 +1,359 @@
+body {
+	background-image: url('../images/Winter_Background_Blur.jpg'); 
+	background-attachment:fixed;
+	background-size: cover;
+
+}
+
+h1 {
+  font-size: 36px;   
+  font-size: 3.5vw;
+  max-font-size: 50px;
+  min-font-size: 20px; 
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 1px 2px black;
+}
+
+
+h3 {
+	font-size: 30px;
+	font-size: 1.7vw;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+table tbody tr th {
+	background-color: #35DB4E;
+	border: 2px solid black;
+	text-align: center;
+}
+
+table tbody tr td {
+	background-color: #fff;
+	border: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+}
+
+#address h3 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+#e-mail {
+    text-align: center;
+}
+
+#rightside #e-mail a {
+   border: none;
+   box-shadow: none;
+}
+
+#footer { 
+	margin-bottom: 20px;
+}
+
+#footer p {	
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; 
+	font-size: .9vw; 
+	font-style:italic; 
+	color:#FFFFFF; 
+	padding: 2px 5px 5px 10px;
+	background-color:#000000; 
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+/*#header {
+	max-height: 200px;
+	min-height: 50px;
+	overflow: hidden;
+	background-image: url("../images/Rental Skis on Rack.jpg");
+	background-size: cover;
+	border: 2px solid black;
+
+}*/
+#BannerPic {
+	padding-left: 0px;
+	padding-right: 0px;
+	border: 2px solid black;
+	max-height: 300px;
+	overflow: hidden;
+}
+
+#BannerPic img {
+    width: 100%;
+
+}
+
+#BtmPics {
+    text-align: center;
+}
+
+#BtmPics img {
+    width: 28%;
+    display: inline-block;
+    margin: 1.66%;
+    max-height: 138px;
+    overflow: hidden;
+}
+
+#header {
+    position: relative;
+    background: #5C97FF;
+    overflow: hidden;
+}
+/* You could use :after - it doesn't really matter */
+#header:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+    background-image: url("../images/Rental Skis on Rack.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#header h1 {
+    text-align: center;
+    z-index: 2;
+    position: relative;
+    color: red;
+} 
+
+#leftSide h2 {
+	text-align: center;
+    font-size: 25px;
+    font-size: 1.5vm
+
+}
+
+#motto {
+	margin-top: 48px;
+
+}
+
+
+
+#motto h3 {
+	text-align: left;
+	font-size: 30px;
+    font-size: 1.7vw;
+	font-weight: bold;
+/*	width: 50%;*/
+	float: right;
+	margin-left: 20px;
+}
+
+       /*   Road Riding Routes  */
+
+.ride-description { width: 52%; padding-bottom:5px; text-align: center; }
+.ride-div div  { display: inline-block; margin-left: 10px;  vertical-align: middle; }
+.ride-div  { border-top: 3px #000000 solid; vertical-align: center;  }
+.ride-name { width: 30%; }
+.ride-name h2 { font-size: 2.0rem; font-size: 27px; font-weight: bold; width: 100%;   }
+.ride-name a:visited {color:#003871; }
+.nameDiv { width: 35%;  }
+.miles { width: 10%;}
+.miles h3 { font-size: 20px; font-weight: bold;}
+       
+       /* End of Road Riding Routes */
+
+#riders {
+	margin-top: 15px;
+}
+
+#rightside {
+	margin-top: 25px;
+}
+
+#rightside a {
+	text-align: center;
+	margin-top: 15px;
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px black;
+}
+
+#share-buttons img { 
+	width: 35px; 
+	padding: 5px; 
+	display: inline; 
+	margin-top: 15px;
+    float: right;
+} 
+
+#skier {
+	margin-bottom: 20px;
+}
+
+#mainContent {
+/*	width: 80%;*/
+/*	max-width: 1050px;*/
+	background-color: #BAC0C2;
+	border: 2px solid black;
+}
+
+/*     //////////// Classes ///////// */
+
+
+.boldBlue {
+	font-weight: bold;
+	color: blue;
+}
+
+.boldRed {
+	font-weight:bold;
+	color: #F50A0A;
+	text-align:center;
+}
+
+.border {
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px black; 
+}
+
+.center {
+	text-align: center;
+}
+
+.top {
+	margin-top: 20px;
+}
+
+.container {
+	margin: 0 auto;
+
+}
+
+.helmets img {
+    width: 28%;
+    margin: 1.66%;
+    display: inline-block;
+
+}
+
+
+
+.iframes iframe {
+    width: 100%;
+    height: 700px;
+}
+
+
+.Mtiframes iframe {
+    width: 100%;
+}
+
+a.navbar-brand{
+	padding: 0px;
+	margin-right: 20px;
+}
+
+.navbar-brand img {
+	height: 50px;
+	padding: 2px;
+}
+
+.margin {
+	height: 20px;
+}
+
+
+.noPad {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.pictures img{
+	border: 2px solid black;
+	margin-top: 20px;
+	box-shadow: 5px 5px 5px black;
+}
+
+.productImage {
+	width: 100%;
+	overflow: none;
+    margin-top: 10px;
+}
+
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+/* Usage as mixins */
+.element {
+  .pull-left();
+}
+.another-element {
+  .pull-right();
+}
+
+.space {
+	height: 20px;
+}
+
+@media (max-width: 1000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+   /*  since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}

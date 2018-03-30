@@ -1,0 +1,109 @@
+2016-09-27 08:00:57pm -- User uadmin logged on from Cookie!
+2016-09-27 08:01:31pm -- User uadmin logged on from Cookie!
+2016-09-27 08:01:39pm -- User uadmin logged on from Cookie!
+2016-09-27 08:03:01pm -- User uadmin logged on from dropdown
+2016-09-27 08:03:11pm -- User uadmin logged on from dropdown
+2016-09-27 08:04:12pm -- User uadmin logged on from Cookie!
+2016-09-27 08:04:18pm -- User uadmin logged on from Cookie!
+2016-09-27 08:04:31pm -- User uadmin logged on from Cookie!
+2016-09-27 08:04:33pm -- User uadmin logged on from Cookie!
+2016-09-27 08:04:35pm -- User uadmin logged on from Cookie!
+2016-09-27 08:04:52pm -- User uadmin logged on from Cookie!
+2016-09-27 08:05:21pm -- User uadmin logged on from Cookie!
+2016-09-27 08:09:44pm -- User uadmin logged on from Cookie!
+2016-09-27 08:12:45pm -- User uadmin logged on from Cookie!
+2016-09-27 08:13:48pm -- User uadmin logged on from Cookie!
+2016-09-27 08:14:19pm -- User uadmin logged on from Cookie!
+2016-09-27 08:19:28pm -- User uadmin logged on from Cookie!
+2016-09-27 08:21:00pm -- User uadmin logged on from Cookie!
+2016-09-27 08:21:07pm -- User uadmin logged on from dropdown
+2016-09-27 08:21:36pm -- User uadmin logged on from Cookie!
+2016-09-27 08:23:19pm -- User uadmin logged on from Cookie!
+2016-09-27 08:24:26pm -- User uadmin logged on from Cookie!
+2016-09-27 08:24:27pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:24:27pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:24:45pm -- User uadmin logged on from dropdown
+2016-09-27 08:26:32pm -- User uadmin logged on from Cookie!
+2016-09-27 08:26:37pm -- User uadmin logged on from Cookie!
+2016-09-27 08:26:37pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:26:37pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:26:40pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:26:40pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:27:01pm -- User uadmin logged on from dropdown
+2016-09-27 08:28:22pm -- User uadmin logged on from Cookie!
+2016-09-27 08:28:22pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:28:22pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:31:12pm -- User uadmin logged on from Cookie!
+2016-09-27 08:31:12pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:31:12pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:31:53pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:31:53pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:32:01pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:32:01pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:32:08pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:32:08pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:32:58pm -- User uadmin logged on from Cookie!
+2016-09-27 08:32:58pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:32:58pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:33:26pm -- User uadmin logged on from Cookie!
+2016-09-27 08:33:26pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:33:26pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:35:08pm -- User uadmin logged on from Cookie!
+2016-09-27 08:35:08pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:35:08pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:35:42pm -- User uadmin logged on from Cookie!
+2016-09-27 08:35:42pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:35:42pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:35:47pm -- User uadmin logged on from Cookie!
+2016-09-27 08:35:47pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:35:47pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:35:48pm -- User uadmin logged on from Cookie!
+2016-09-27 08:35:48pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:35:48pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:35:49pm -- User uadmin logged on from Cookie!
+2016-09-27 08:35:49pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:35:49pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:36:00pm -- User uadmin logged on from Cookie!
+2016-09-27 08:36:00pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:36:00pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:41:43pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:41:44pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:47:14pm -- User uadmin logged on from Cookie!
+2016-09-27 08:47:14pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:47:14pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:47:41pm -- User uadmin logged on from Cookie!
+2016-09-27 08:47:41pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:47:41pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:47:54pm -- User uadmin logged on from Cookie!
+2016-09-27 08:47:54pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:47:54pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:48:37pm -- User uadmin logged on from Cookie!
+2016-09-27 08:48:37pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:48:37pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:49:10pm -- User uadmin logged on from Cookie!
+2016-09-27 08:49:10pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:49:10pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:53:13pm -- User uadmin logged on from Cookie!
+2016-09-27 08:53:14pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:53:14pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:53:23pm -- User uadmin logged on from Cookie!
+2016-09-27 08:53:23pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:53:23pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:54:19pm -- User uadmin logged on from Cookie!
+2016-09-27 08:54:19pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:54:19pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:55:05pm -- User uadmin logged on from Cookie!
+2016-09-27 08:55:05pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:55:05pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 08:58:29pm -- User uadmin logged on from Cookie!
+2016-09-27 08:58:29pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 08:58:29pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 09:01:21pm -- User uadmin logged on from Cookie!
+2016-09-27 09:01:21pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 09:01:21pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 09:02:07pm -- User uadmin logged on from Cookie!
+2016-09-27 09:02:07pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 09:02:07pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-27 09:03:47pm -- User uadmin logged on from Cookie!
+2016-09-27 09:03:47pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-27 09:03:47pm -- system request for systemID: 1 from IP: 127.0.0.1

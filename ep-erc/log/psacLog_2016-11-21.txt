@@ -1,0 +1,10 @@
+2016-11-21 06:09:23pm -- Error updating system.hits: 1 from IP: 208.73.179.65
+2016-11-21 06:09:23pm -- system request for systemID: 1 from IP: 208.73.179.65
+2016-11-21 06:09:41pm -- User dfbachor logged on from dropdown
+2016-11-21 06:39:46pm -- Error updating system.hits: 1 from IP: 208.73.179.65
+2016-11-21 06:39:46pm -- system request for systemID: 1 from IP: 208.73.179.65
+2016-11-21 06:39:48pm -- Error updating system.hits: 1 from IP: 208.73.179.65
+2016-11-21 06:39:48pm -- system request for systemID: 1 from IP: 208.73.179.65
+2016-11-21 06:39:55pm -- User dfbachor logged on from dropdown
+2016-11-21 07:04:29pm -- Error updating system.hits: 1 from IP: 208.73.179.65
+2016-11-21 07:04:29pm -- system request for systemID: 1 from IP: 208.73.179.65

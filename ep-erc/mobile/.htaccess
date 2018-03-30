@@ -1,0 +1,15 @@
+# Turn rewrite engine on
+Options +FollowSymlinks
+RewriteEngine on
+
+# map neat URL to internal URL
+#RewriteRule ^m/login/$	restcontroller.php?service=login [nc,qsa]
+#RewriteRule ^m/login/$	testme.php [nc,qsa]
+
+RewriteRule ^m/login/$	restcontroller.php?service=login [nc,qsa]
+RewriteRule ^m/system/$	restcontroller.php?service=system [nc,qsa]
+RewriteRule ^m/users/$	restcontroller.php?service=users [nc,qsa]
+RewriteRule ^m/tasks/$	restcontroller.php?service=tasks [nc,qsa]
+RewriteRule ^m/contracts/$	restcontroller.php?service=contracts [nc,qsa]
+RewriteRule ^m/adduser/$	restcontroller.php?service=adduser [nc,qsa]
+RewriteRule ^m/updateuser/$	restcontroller.php?service=updateuser [nc,qsa]

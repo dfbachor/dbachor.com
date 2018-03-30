@@ -1,0 +1,33 @@
+2016-12-16 11:43:58am -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 11:43:58am -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 11:44:14am -- User uadmin logged on from dropdown
+2016-12-16 12:02:37pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:02:37pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:02:38pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:02:38pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:11:18pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:11:18pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:11:28pm -- User uadmin logged on from Cookie!
+2016-12-16 12:12:14pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:12:14pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:12:17pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:12:17pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:12:21pm -- User demo logged on from dropdown
+2016-12-16 12:12:24pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:12:24pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:12:24pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:12:24pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:12:31pm -- User demo logged on from dropdown
+2016-12-16 12:14:50pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:14:50pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:14:58pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:14:58pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:15:03pm -- User demo logged on from dropdown
+2016-12-16 12:19:50pm -- User demo logged on from Cookie!
+2016-12-16 12:19:50pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:19:50pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:19:54pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:19:54pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:19:54pm -- Error updating system.hits: 1 from IP: 24.152.229.143
+2016-12-16 12:19:54pm -- system request for systemID: 1 from IP: 24.152.229.143
+2016-12-16 12:19:59pm -- User demo logged on from dropdown

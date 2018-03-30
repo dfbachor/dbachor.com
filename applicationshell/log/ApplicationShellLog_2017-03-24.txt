@@ -1,0 +1,2 @@
+2017-03-24 01:07:07pm -- Config.php : Failed to connect to the database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+2017-03-24 01:07:48pm -- Config.php : Failed to connect to the database: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)

@@ -1,0 +1,102 @@
+---
+FieldType: Text
+FieldName: RenterNameLast
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterNameFirst
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterNameInitial
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterPhone
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterAddressStreet
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterAddressCity
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterAddressState
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterAddressZipCode
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterEMail
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Left
+---
+FieldType: Text
+FieldName: RenterWeight
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: RenterHeight
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Center
+---
+FieldType: Text
+FieldName: RenterAge
+FieldFlags: 0
+FieldValue: 
+FieldJustification: Center
+---
+FieldType: Button
+FieldName: SnowboardStanceGroup
+FieldFlags: 49152
+FieldValue: Goofy
+FieldJustification: Left
+FieldStateOption: Goofy
+FieldStateOption: Off
+FieldStateOption: Regular
+---
+FieldType: Button
+FieldName: RenterEquipmentDamageInsurance
+FieldFlags: 49152
+FieldValue: DamageInsuranceAccepted
+FieldJustification: Left
+FieldStateOption: DamageInsuranceAccepted
+FieldStateOption: DamageInsuranceDeclined
+FieldStateOption: Off
+---
+FieldType: Button
+FieldName: SkierType
+FieldFlags: 49152
+FieldValue: SkierTypePlus
+FieldJustification: Left
+FieldStateOption: Off
+FieldStateOption: SkierTypeMinus
+FieldStateOption: SkierTypeOne
+FieldStateOption: SkierTypePlus
+FieldStateOption: SkierTypeThree
+FieldStateOption: SkierTypeTwo

@@ -1,0 +1,12 @@
+2017-05-14 09:42:50pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:42:56pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:43:39pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:46:56pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:47:47pm -- User demo logged on from dropdown
+2017-05-14 09:53:48pm -- User demo logged on from Cookie!
+2017-05-14 09:53:48pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:53:50pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:53:50pm -- system request for systemID: 1 from IP: 127.0.0.1
+2017-05-14 09:53:54pm -- User demo logged on from dropdown
+2017-05-14 09:54:26pm -- User demo logged on from Cookie!
+2017-05-14 09:54:26pm -- system request for systemID: 1 from IP: 127.0.0.1

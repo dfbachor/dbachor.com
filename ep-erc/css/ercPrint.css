@@ -1,0 +1,115 @@
+	#ercForm_mainForm * {
+		padding:	0px; 
+		margin:		0px;
+	}	
+	
+	#ercForm_logo {
+		border-top:	solid black 6px;
+		border-bottom:	solid black 6px;
+	}
+	
+	#erc_mainTableBody tr {
+		height:	10px;
+	}
+	
+	#ercForm_addresTable .ercForm_lable {
+		text-align: right;
+	}
+	
+	
+	#demographicsTable * {
+		border-collapse: collapse;
+		padding: 0px;
+		margin:	0px;
+	}
+	
+	#demographicsTable tr th {
+		font-size: 75%;
+		text-align: center;
+		height:		20px;
+		border: solid grey 1px;
+	}
+	
+	#demographicsTable tr td {
+		text-align: center;
+		height:		22px;
+		border: solid grey 1px;
+	}
+	
+	
+	#ercForm_nameTable, #demographicsTable {
+		background-color:	#d4d1d1;
+	}
+	
+	
+	#pricingTable td {
+		font-size:	 smaller;
+		border:	none;
+		border-bottom: solid black 2px;
+	}
+	
+	#pricingTable tr {
+		height:		23px;
+	}
+
+
+	#nameAddressDemoPricingTable {
+		border:	solid black 2px;	
+	}
+	
+	#equipmentDamageWavierTable * {
+		padding: 0px;
+		margin: 0px;		
+	}	
+	
+	#equipmentRentedTable * {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#equipmentRentedTable th {
+		font-size: small;		
+	}
+
+	#equipmentRentedTable th td {
+		font-size: small;		
+	}
+	
+	.equipRented {
+		font-size:	small;
+	}
+	
+	#agreement {
+		border: solid black 2px;	
+	}
+	
+	#agreement p {
+		font-family: sans-serif;
+		font-size:	 x-small;
+		margin: 4px;
+	}
+	
+	#agreement p:first-letter {
+		font-weight: bold;
+	}
+	.signatureLine, .dateLine {
+	    background-color: lightgrey;
+/* 	    width: 300px; */
+	    border: 1px solid black;
+	    padding: 10px;
+	    margin: 2px;
+	}
+	
+	.signatureSubText {
+		font-size: smaller;
+		margin:	0px;
+	}
+
+
+
+
+
+
+
+
+

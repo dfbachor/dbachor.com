@@ -1,0 +1,134 @@
+
+<!-- Register User Modal popup ---------------------------------------------
+this window will not show until requested from the register menu item -->
+
+<div class="modal fade" id="userModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+            
+            <div class="modal-header">
+            	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myUserModalLabel">Add User</h4>
+            </div>
+            
+            <div class="modal-body">
+	            
+				
+	
+						<form class="form-horizontal" role="form" id="userForm"> 
+							
+							<div class="form-group">
+								<label for="user_fname" class="control-label col-sm-3">First Name:<strong style="color:darkred;">*</strong></label> 
+								<div class="col-sm-9">
+									<input class="form-control" type="text" id="user_fname" name="fname" placeholder="First Name" data-error="first name is required" required> 					    
+									<span class='error'>This field is required</span>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="user_lname" class="control-label col-sm-3">Last Name:<strong style="color:darkred;">*</strong></label> 
+								<div class="col-sm-9">
+									<input class="form-control" type="text" id="user_lname" name="lname" placeholder="Last Name" data-error="last name is required" required> 
+									<span class='error'>This field is required</span>
+								</div>
+							</div>
+		
+							<div class="form-group">
+								<label for="user_email" class="control-label col-sm-3">Email:<strong style="color:darkred;">*</strong></label> 
+								<div class="col-sm-9">	
+									<input class="form-control" type="email" id="user_email" name="email" value="" placeholder="email@domain.com" data-error="email address is invalid" required>
+									<span class='error'>This field is required</span>
+								</div>
+							</div>
+		
+							
+							<div class="form-group">
+								<label for="user_role" class="control-label col-sm-3">Role:
+									<strong style="color:darkred;">*</strong>
+								</label> 
+								<div class="col-sm-3">	
+								
+									<select class="form-control input-sm valid" id="user_role" name="role">
+										<option value="u">User</option>
+										<option value="a">Admin</option>
+									</select>
+								</div>
+							</div>
+		
+							
+							<div class="form-group">
+								<label for="user_uname" class="control-label col-sm-3">User Name:<strong style="color:darkred;">*</strong></label> 
+								<div class="col-sm-9">
+									<input class="form-control" type="text" id="user_uname" name="fname" placeholder="First Name"  data-error="user name is required" required> 
+									<span class='error'>This field is required</span>
+								</div>
+							</div>
+									
+									
+							
+							<div class="form-group">
+								<label for="user_password" class="control-label col-sm-3">Pword:<strong style="color:darkred;">*</strong></label> 
+								<div class="col-sm-6">	
+									<input class="form-control" type="password" id="user_pword" name="pword" placeholder="password"  data-error="password is required" required>
+									<span class='error'>This field is required</span>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<label for="user_imageFile" class="control-label col-sm-3">Image File Name:</label> 
+								<div class="col-sm-9">	
+									<input class="form-control" type="file" id="user_imageFile" name="user_imageFile" placeholder="Image File Name">
+								</div>
+							</div>
+						</form>		
+			</div> <!-- modal body -->
+            
+            <div class="modal-footer">
+
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<div id="user_submit">
+						<input type="submit" id="addEditUserButton" class="btn btn-info" value="Add User">
+						<!--<button class="btn btn-primary" onclick="registerUser()" >Register User</button>-->
+					</div>
+			</div>
+		</div> <!-- modal content -->
+  	</div>
+ </div>
+<!--  end Register Modal Popup -->
+
+
+<!-- USER Note Modal Popup ---------------------------------------------
+this window will not show until requested from the edit note link item -->
+
+<div class="modal fade" id="addUserNoteModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog modal-md">
+		<div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myUsertNoteModalLabel">User Note</h4>
+            </div>
+            <div class="modal-body">
+			
+				<form class="form-horizontal" role="form" id="userNoteForm"> 
+					
+					<div class="form-group">
+						<label for="userNoteTextarea" class="control-label col-sm-2">Note:</label> 
+						<div class="col-sm-10">
+							<textarea id='userNoteTextarea' rows='4' cols='55' maxlength='1056' onkeydown="if (event.keyCode == 13) document.getElementById('userNoteSubmit').click()"></textarea>
+						</div>
+					</div>
+				</form>				
+            </div>
+
+            <div class="modal-footer">
+            		<br>
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<button id="userNoteSubmit" class="btn btn-primary" onclick="saveUserNote()">Save Note</button>
+				
+			</div>
+		</div>
+  </div>
+</div>
+<!--  end USER Note Modal Popup -->
+
+

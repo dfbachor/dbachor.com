@@ -1,0 +1,37 @@
+2016-11-10 05:05:27pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:05:27pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:05:55pm -- User uadmin logged on from dropdown
+2016-11-10 05:19:58pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:19:58pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:20:06pm -- User eric logged on from dropdown
+2016-11-10 05:28:08pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:28:08pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:28:08pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:28:08pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:28:16pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:28:16pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:28:17pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:28:17pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:38:19pm -- User uadmin logged on from Cookie!
+2016-11-10 05:38:19pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:38:19pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:39:28pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:39:28pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:39:28pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:39:28pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:39:32pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:39:32pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:39:32pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:39:32pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:41:19pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:41:19pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:41:19pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:41:19pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:41:47pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:41:47pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:41:47pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:41:47pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:47:00pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:47:00pm -- system request for systemID: 1 from IP: 74.214.35.42
+2016-11-10 05:47:01pm -- Error updating system.hits: 1 from IP: 74.214.35.42
+2016-11-10 05:47:01pm -- system request for systemID: 1 from IP: 74.214.35.42

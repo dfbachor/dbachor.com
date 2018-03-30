@@ -1,0 +1,10 @@
+2016-10-15 12:00:08am -- User uadmin logged on from Cookie!
+2016-10-15 12:00:08am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-15 12:00:08am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-15 12:02:23am -- User uadmin logged on from Cookie!
+2016-10-15 12:02:23am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-15 12:02:23am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-15 09:24:00am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-15 09:24:00am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-15 09:24:00am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-15 09:24:00am -- system request for systemID: 1 from IP: 127.0.0.1

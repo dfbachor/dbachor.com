@@ -1,0 +1,30 @@
+2016-09-28 07:21:25am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:21:25am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 07:21:38am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:21:38am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 07:25:04am -- User uadmin logged on from Cookie!
+2016-09-28 07:25:04am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:25:04am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 07:29:46am -- User uadmin logged on from Cookie!
+2016-09-28 07:29:46am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:29:46am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 07:31:37am -- User uadmin logged on from Cookie!
+2016-09-28 07:31:38am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:31:38am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 07:33:00am -- User uadmin logged on from Cookie!
+2016-09-28 07:33:00am -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 07:33:00am -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 09:56:37pm -- User uadmin logged on from Cookie!
+2016-09-28 09:56:37pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 09:56:37pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 10:03:40pm -- User uadmin logged on from Cookie!
+2016-09-28 10:03:40pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 10:03:40pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 10:04:39pm -- User uadmin logged on from Cookie!
+2016-09-28 10:04:39pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 10:04:39pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 10:05:45pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 10:05:45pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-09-28 10:10:34pm -- User uadmin logged on from Cookie!
+2016-09-28 10:10:34pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-09-28 10:10:34pm -- system request for systemID: 1 from IP: 127.0.0.1

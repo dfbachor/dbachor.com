@@ -1,0 +1,6 @@
+2016-10-26 10:10:01pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-26 10:10:01pm -- system request for systemID: 1 from IP: 127.0.0.1
+2016-10-26 10:10:10pm -- User uadmin logged on from Cookie!
+2016-10-26 10:10:49pm -- User uadmin logged on from Cookie!
+2016-10-26 10:10:49pm -- Error updating system.hits: 1 from IP: 127.0.0.1
+2016-10-26 10:10:49pm -- system request for systemID: 1 from IP: 127.0.0.1

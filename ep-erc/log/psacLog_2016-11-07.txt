@@ -1,0 +1,3 @@
+2016-11-07 07:00:06pm -- Error updating system.hits: 1 from IP: 208.73.179.65
+2016-11-07 07:00:06pm -- system request for systemID: 1 from IP: 208.73.179.65
+2016-11-07 07:00:15pm -- User dfbachor logged on from Cookie!

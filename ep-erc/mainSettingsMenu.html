@@ -1,0 +1,111 @@
+<!-- Settings Tab ------------------------------------------------- -->   
+    <div id="settingsMenu" class="tab-pane fade">
+	    
+	  	<div class="row">
+	  		<div class="container col-sm-12">
+			  	<div class="panel-group" id="settingsAccordion">
+				  
+				    <div class="panel panel-default panel-success">
+						<div class="panel-heading">
+							<h4 class="panel-title">
+								<a class="accordion-toggle" data-toggle="collapse" data-parent="#settingsAccordion" href="#settingsCollapse1">Company Information</a>
+							</h4>
+						</div>
+				      
+					    <div id="settingsCollapse1" class="panel-collapse collapse in">
+					        			        
+					        <div class="panel-body">
+						        <div id='settingsCompanyInfo'>
+									<div class="form-group">
+										<label for="system_ID" class="control-label col-sm-4">System ID:
+											<strong style="color:darkred;">*</strong>
+										</label> 
+										<div class="col-sm-8">
+											<input class="form-control" type="text" id="system_ID" name="companyName" disabled> 					    
+										</div>
+									</div>			
+									
+									<div class="form-group">
+										<label for="system_companyName" class="control-label col-sm-4">Company Name:
+											<strong style="color:darkred;">*</strong>
+										</label> 
+										<div class="col-sm-8">
+											<input class="form-control" type="text" id="system_companyName" name="companyName" placeholder="Company Name" data-error="first name is required" required> 					    
+										</div>
+									</div>			
+									
+									<div class="form-group">
+										<label for="system_companyPhone" class="control-label col-sm-4">Phone Number:
+											<strong style="color:darkred;">*</strong>
+										</label> 
+										<div class="col-sm-8">	
+											<input class="form-control" id="system_companyPhone" type="tel" name="companyPhone" placeholder="Phone Number">
+										</div>
+						        	</div>	
+							
+
+						        	
+									<div class="form-group">
+										<label for="system_showClosedTasks" class="control-label col-sm-4">Show Closed Tasks:<strong style="color:darkred;">*</strong></label>
+										<div class="col-sm-8">	
+											<input class="form-control" type="checkBox" id="system_showClosedTasks" name="showClosedTasks">
+										</div>
+						        	</div>
+
+									<div class="form-group">
+										<label for="system_showClosedContracts" class="control-label col-sm-4">Show Closed Contracts:<strong style="color:darkred;">*</strong></label>
+										<div class="col-sm-8">	
+											<input class="form-control" type="checkBox" id="system_showClosedContracts" name="showClosedContracts">
+										</div>
+						        	</div>
+
+						        	
+									<div class="form-group">
+										<label for="settings_logoFile" class="control-label col-sm-4">Logo Image File Name:</label> 
+										<div class="col-sm-4">	
+											<input class="form-control input-sm" type="file" id="settings_logoFile" name="logoFile" placeholder="Image File Name">
+											
+										</div>	
+										<div id="settingsCompanyLogoDiv" class="col-sm-4">
+											<a href='#' id="settingsCompanyLogoAnchor" data-toggle="modal" data-target="#showImage">					            	
+												<img id="settingsCompanyLogo" src="photos/default.jpg" height="100" width="100">
+											</a>
+										</div>
+									</div>
+						        	
+						        	
+								</div> <!-- settingsCompanyInfo -->
+							</div> <!-- panal-body -->
+							
+						</div> <!-- settingsCollapse1 --> 
+					</div> <!-- panel-default --> 
+									
+					
+					<div class="panel panel-default panel-success">
+						<div class="panel-heading">
+					        <h4 class="panel-title">
+					        	<a id="settingsAboutTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#settingsAccordion" href="#settingsCollapse2">About</a>
+					        </h4>
+						</div>
+						      
+					    <div id="settingsCollapse2" class="panel-collapse collapse">
+					        <div class="panel-body">
+						        <ul class="seedBullet">
+							        <li>
+							        	System Info here							        						</li>
+							        <li>
+						        </ul>
+					    	</div>
+					    </div> 
+					</div> 
+						    
+			    
+			    </div> <!-- settingsAccordion -->
+			</div>
+		</div> <!-- row -->
+
+		<div id="systemSubmit" align="center">
+			<input id="systemSubmitButton" type="button" class="btn btn-info" value="Update Settings">
+		</div>
+		
+    </div> <!-- settingsMenu -->

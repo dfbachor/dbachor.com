@@ -1,0 +1,520 @@
+	    	<!-- Contracts Menu ------------------------ -->
+	    	<!-- Contracts Menu ------------------------ -->
+	    	<!-- Contracts Menu ------------------------ -->
+	    	<!-- Contracts Menu ------------------------ -->
+	    	
+	    	<div id="contractsMenu" class="tab-pane fade in">
+		      	<div class="container col-sm-7">
+				  <div class="row">
+				      <div class="panel panel-default panel-success">
+				        <div class="panel-heading" style="height: 50px; padding: 5px">
+		
+				       						
+				        	<div class="col-sm-4" style="height: 50px;">
+								<span class='dataTableHeaderTitle' id='contractsTitle'>Contracts (<span id='contractsCount'></span>)</span>
+					        </div>
+					        
+				        	<div class="col-sm-2" style="height: 50px;">
+					        	<label for="contractsToggleShowClosedContracts">Show All</label>
+				            	<input type="checkbox" id='contractsToggleShowClosedContracts'/>
+					        </div>
+
+				        	<div class="col-sm-2" style="height: 50px;">
+				            	<a href='#' id='contractsPrintAll'>Print All</a>
+					        </div>
+
+				        	<div class="col-sm-2" style="height: 50px;">
+				            	<a href='#' id='contractsPrintSelected'>Print Selected</a>
+					        </div>
+
+				        	<div class="col-sm-2" style="height: 50px;">
+				            	<a href='#' id='contractsAddContracts' data-toggle="modal" data-target="#contractsModal">Add Contract</a>
+					        </div>
+
+
+				        </div>
+					  <table id="contractsTable" class="table table-striped table-bordered table-hover table-condensed" cellspacing="0" width="100%">
+						<thead>
+				          <tr>
+				             <th>Print</th>
+				             <th>Last</th>
+				             <th>First</th>
+				             <th>Email</th>
+				             <th>Phone</th>
+				             <th>Printed</th>
+				          </tr>
+				        </thead>
+				        <tfoot>
+				          <tr>
+				             <th>Print</th>
+				             <th>Last</th>
+				             <th>First</th>
+				             <th>Email</th>
+				             <th>Phone</th>
+				             <th>Printed</th>
+				        </tr>
+				        </tfoot>
+				        <tbody id='contractsListing'>
+					        
+				        </tbody>
+				      </table>
+				    </div>
+				  </div>
+		 	  </div>	
+		 	  
+		 	  <!-- contracts DETAIL ------------- -->
+		  	  <div class="container col-sm-5">
+			  	<div class="row">
+				  	<div class="panel panel-default panel-success">
+			        	<div class="panel-heading col-sm-2" style="height: 50px; padding: 1px">
+				            	<img class="companyLogo" id="contractPhoto" src="photos/default.jpg" height='48' width='48'>
+				        </div>
+			        	<div class="panel-heading col-sm-8" style="height: 50px;">
+				            <h5 id='contractsDetailTitle'>Contract Detail</h5> 
+				        </div>
+			        	<div class="panel-heading col-sm-2" style="height: 50px;">
+				            <span id='editContractLink'></span> 
+				            <span class='admin' id='deleteContractLink'></span> 
+				        </div>
+				  	</div>
+				  	
+			  	</div>
+			  	<div class="row">
+			  		<div class="container col-sm-12">
+					  <div class="panel-group" id="contractsAccordion">
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a class="accordion-toggle" data-toggle="collapse" data-parent="#contractsAccordion" href="#contractsCollapse1">Contract Information</a>
+					        </h4>
+					      </div>
+					      <div id="contractsCollapse1" class="panel-collapse collapse in">
+					        <div class="panel-body">
+						        <div id='contractDetail'>
+								</div>
+					        </div>
+					      </div>
+					    </div>
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a id="contractNotesTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#contractsAccordion" href="#contractsCollapse2">Contracts Notes</a>
+					        </h4>
+					      </div>
+					      
+					      <div id="contractsCollapse2" class="panel-collapse collapse">
+					        <div class="panel-body">
+					        	<p><a href='#' data-toggle="modal" data-target="#addContractNoteModal">
+									Add Note
+								</a></p>
+								<div id='contractNotesListing'>
+									<table>
+								            <thead>
+								                <tr>
+								                    <th width="200">Notes</th>
+								                    <th width="200">Date Time</th>
+								                    <th width="25"></th>
+								                </tr>
+								            </thead>
+								    </table>
+		
+									<div style="max-height: 200px; overflow: auto;">
+								        <table id="contractNotesTable">
+								            <tbody id="contractNotesTableBody">
+		
+								            </tbody>
+								        </table>
+									</div>
+								</div>
+					        </div>
+					      </div>
+					    </div>
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a id="contractsPrintTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#contractsAccordion" href="#contractsCollapse3">Print Contract</a>
+					        </h4>
+					      </div>
+					      
+					      <div id="contractsCollapse3" class="panel-collapse collapse">
+					        <div class="panel-body">
+							    <img src='img/erc.png' height='50' width='50' alt='contract image'>
+							    <input id="printContractButton" type="button" value="print" />
+					        </div> <!-- panel-body -->
+					      </div> <!-- growCollapse3 -->					      
+					    </div> <!-- panel panel-default -->
+					    
+					    <div class="panel panel-default panel-success">
+					      <div class="panel-heading">
+					        <h4 class="panel-title">
+					          <a id="contractsAboutTitle" class="accordion-toggle" data-toggle="collapse" data-parent="#contractsAccordion" href="#contractsCollapse4">About</a>
+					        </h4>
+					      </div>
+					      
+					      <div id="contractsCollapse4" class="panel-collapse collapse">
+					        <div class="panel-body">
+						        <ul class="seedBullet">
+							        <li>
+							        	A contract is ......blah blah blah.
+									</li>
+					        </div> <!-- panel-body -->
+					      </div> <!-- growCollapse4 -->					      
+					    </div> <!-- panel panel-default -->
+					    
+					  </div> 
+					</div>
+				</div>
+		  	  </div>
+			</div> <!-- end contracts menu -->
+			
+			
+			
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+<!-- Contract print form			 -->
+
+			
+<div id='ercForm_mainPrintDIV' style="border: 2px solid black; display: none;">
+	
+		<div id='ercForm_mainForm' style="border: 2px solid black">
+			<div>
+				<table id="ercForm_mainTable" style="border-collapse: collapse; width: 100%; border: 2px solid black;">
+					<tbody id="erc_mainTableBody">
+						<tr style="border-bottom: solid black 1px;" >
+							<td colspan="2" style="width: 50%;">
+								<div id='ercForm_headingLable' style="text-align: center;">
+									<h5>EQUIPMENT RENTAL CONTRACT</h5>
+								</div>
+							</td>
+							<td colspan="3" style="width: 35%" id='ercform_phoneNumberTd'>
+								<div id="ercForm_phoneNumber" style="text-align: center;">
+									<h3>570-646-9223</h3>
+								</div>
+							</td>
+							<td rowspan='2' style="width: 20%">
+								<div id='ercForm_logo'>
+									<img src="img/ercFormLogo.png" style="width: 200px; height: 42px;">	
+								</div>	
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div id="ercForm_dateOut">
+									<h5>Date Out:</h5>
+								</div>
+							</td>
+							<td>
+								<div id="ercForm_timeOut">
+									<h5>Time Out:</h5>
+								</div>
+							</td>
+							
+							<td style="width: 5%">
+								<div id="ercForm_returnByLable">
+									<h6 style="text-align: right"><small>Return By:</small></h6>
+								</div>
+							</td>
+							<td>
+								<div id="ercForm_returnByDate">
+									<h5>Date:</h5>
+								</div>
+							</td>
+							<td>
+								<div id="ercForm_timeOut">
+									<h5>Time:</h5>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>	
+			</div>
+		</div>	
+			
+		<div>
+			<table id="nameAddressDemoPricingTable" width='100%' style="border-collapse: collapse">
+				<tr>
+					<td valign="top" width='75%' >
+						<table id="ercForm_nameTable"  width="100%">
+							<tr style="border-bottom: solid black 1px">
+								<th >Name:</th>
+								<td id='ercForm_name'>Doe, John P</td>
+								<th>Cell Phone:</th>
+								<td id='ercForm_cellphone'>(123) 123-1231</td>
+							</tr>
+							<tr>
+								<th rowspan="2"  style="border-bottom: solid black 1px">Address:</th>
+								<td colspan="3" id="ercForm_street">the Street</td>		
+							</tr>
+							<tr style="border-bottom: solid black 1px">
+								<td colspan="3" id="ercForm_cityStateZip">the City</td>								
+							</tr>
+							<tr>
+								<th>Email:</th>
+								<td colspan="3" id="ercForm_emailAddress">emial@domin.com</td>								
+							</tr>
+						</table>
+												
+						<table id="demographicsTable" style="width: 100%;" border='1'>
+							<tr>
+								<th>Weight:</th>
+								<th>Height:</th>								
+								<th>Age:</th>
+								<th>Skier Type:</th>
+								<th>Snowboard Stance:</th>
+							</tr>
+							<tr>
+								<td id="ercForm_weight" >Your weight</td>
+								<td id="ercForm_height" >Your height</td>
+								<td id="ercForm_age" >Your age</td>
+								<td id="ercForm_skierType" >I II III</td>
+								<td id="ercForm_snowboardStance" >reg|goof</td>
+							</tr>
+						</table>
+					</td>
+					<td valign="top" width='25%'>
+						<table id="pricingTable"  width=100% style="border-collapse: collapse; border: solid black 2px;">
+							<tr>
+								<td style="text-align: right" width=65%>Number of Rental Days:</td>
+								<td width=35%>#</td>
+							</tr>
+							<tr>
+								<td style="text-align: right">Daily Rate:</td>
+								<td>$</td>
+							</tr>
+							<tr>
+								<td style="text-align: right">Helmet:</td>
+								<td>$</td>
+							</tr>
+							<tr>
+								<td style="text-align: right">Damage Insurance:</td>
+								<td>$    1.00</td>
+							</tr>
+							<tr>
+								<td style="text-align: right">Other:</td>
+								<td>$</td>
+							</tr>
+							<tr>
+								<td style="text-align: right">Total Daily Rental:</td>
+								<td>$</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>  <!-- main address table -->
+			
+			<!-- Equipment Damage Wavier Table-->
+			<!-- Equipment Damage Wavier -->
+			<!-- Equipment Damage Wavier -->
+			<!-- Equipment Damage Wavier -->
+			<!-- Equipment Damage Wavier -->
+			
+			<table id="equipmentDamageWavierTable" style="width: 100%; border: 1px solid black; border-collapse: collapse" >
+				<tr>
+					<td style="width: 7%; font-weight: bold; border: 2px solid black; font-size: small; text-align: center">
+						<h6>Equipment Damage Wavier</h6>
+					</td>
+					<td style="width: 7%; vertical-align: bottom; background-color: #d4d1d1; border: 2px solid black">
+						<h6 style="text-align: center;">Accepted<br><small>initial</small></h6>
+					</td>
+					<td style="width: 7%; vertical-align: bottom; background-color: #d4d1d1; border: 2px solid black">
+						<h6 style="text-align: center;">Declined<br><small>initial</small></h6>
+					</td>
+					<td style="width: 79%; border: 2px solid black; font-size: small">
+						<small>This damage waiver applies to equipment damage only.  It does not apply to lost, misplaced, or stolen rental equipment. If the damage waiver is accepted, the shop will absorb the cost of repairing any accidental damage. The customer is responsible for the full retail value of any lost, misplaced, stolen or intentionally damaged rental equipment.</small>
+					</td>
+				</tr>
+			</table>
+			
+			<div style="border-left: solid black 2px; border-right: solid black 2px">
+			<table id="equipmentRentedTable"  border='1' style="width: 100%; border-collapse: collapse">
+				<tr>
+					<th style="width: 50%; text-align: left">Equipment Rented: <small style="color: gray"> Inventory No/Code:</small></th>
+					<th style="width: 15%; text-align: center;">Skier Code:</th>
+					<th style="width: 20%; text-align: center;">Skiing</th>
+					<th style="width: 15%; text-align: center;">Snowboarding</th>
+				</tr>
+				<tr>
+					<td class="equipRented">Ski/Board __________________ Size _________</td>
+					<td rowspan="2">
+						<div style="border-style: groove; width: 70px; height: 35px; margin: auto"></div>
+					</td>
+					
+					<td rowspan="2">
+						<table border='0' style="width: 100%">
+							<tr>
+								<td rowspan="2" style="text-align: right"><small style="font-size: x-small">Final<br>Settings</small></td>
+								<td style="text-align: center">
+									<div style="border-style: ridge; width: 44px; height: 20px; margin: auto"><span style="font-size: xx-small; color: grey">left toe</span></div>
+								</td>
+								<td style="text-align: center">
+									<div style="border-style: ridge; width: 44px; height: 20px; margin: auto"><span style="font-size: xx-small; color: grey">right toe</span></div>
+								</td>
+							</tr>
+							<tr>
+<!-- 								<td></td> -->
+								<td style="text-align: center">
+									<div style="border-style: ridge; width: 44px; height: 20px; margin: auto"><span style="font-size: xx-small; color: grey">left heel</span></div>
+								</td>
+								<td style="text-align: center">
+									<div style="border-style: ridge; width: 44px; height: 20px; margin: auto"><span style="font-size: xx-small; color: grey">right heel</span></div>
+								</td>
+							</tr>
+						</table>
+						
+					</td>
+					
+					<td rowspan="2">
+						<table border='0' style="width: 100%">
+							<tr>
+								<td colspan="2" style=" vertical-align: top; text-align: center; font-size: x-small; font-weight: normal">Stance Angle</td>
+							</tr>
+							<tr>
+								<td style="text-align: center;">
+									<div style="border-style: groove; width: 50px; height: 30px; margin-left: 10px;">
+										<span style="color: gray">Left</span>
+									</div>
+								</td>
+								<td style="text-align: center">
+									<div style="border-style: groove; width: 50px; height: 30px; ">
+										<span style="color: gray">Right</span>
+									</div>
+ 								</td>
+							</tr>
+						</table>
+											</td>
+				</tr>
+				<tr>
+					<td class="equipRented">Boot ________________ Sole Length _________</td>
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+				</tr>
+				<tr class="equipRented">
+					<td >Helmet ____________________ Pole _________</td>
+<!-- 					<td></td> -->
+<!-- 					<td></td> -->
+					<td class="equipRented" colspan="3">Technician's Signature:___________________________________Date:___________</td>
+				</tr>
+			</table>
+			</div>
+			
+			
+		</div>
+	
+	<div id="agreement">
+		<h4 style="text-align: center; margin: 0px; letter-spacing: 1px">Agreement</h4>
+		
+		<p>
+		I have accurately represented the above listed information and it is true and correct. I will not use any of the equipment to be provided to me during this transaction until I have received instruction on its use and I fully understand its use and function. I agree to verify that the visual indicator settings to be recorded on this form for downhill ski equipment agree with the number appearing in the visual indicator windows of the equipment to be listed on this form.
+		</p>
+		<p>
+		I accept for use AS IS the equipment listed on this form, and accept full financial responsibility for the care of the equipment while it is in my possession. I will be responsible for the replacement at full value of any equipment rented under this form, but not returned to the rental facility. I agree to return all rental equipment by the agreed date.
+		</p>
+		<p>
+		I understand that the binding system cannot guarantee the user's safety. In downhill skiing, the binding system will not release at all times or under all circumstances where release may prevent injury or death, nor is it possible to predict every situation in which it will release. In snowboarding, cross-country skiing, skiboarding, showshoeing and other sports utilizing equipment with non-release bindings, the binding system will not ordinarily release during use; these bindings are not designed to release as a result of forces generated during ordinary operation.
+		</p>
+		<p>
+		I understand that the sports of skiing, snowboarding, skiboarding, snowshoeing and other sports (collectively "RECREATIONAL SNOW SPORTS") involve inherent and other risks of INJURY and DEATH. I voluntarily agree to expressly assume all risks of injury or death that may result from these RECREATIONAL SNOW SPORTS, or which relate in any way to the use of this equipment.
+		</p>
+		<p>
+		I understand that a helmet designed for RECREATIONAL SNOW SPORTS use will help reduce the risk of some types of injuries to the user at slower speeds. I recognize that serious injury or death can result from both low and high energy impacts, even when a helmet is worn.
+		</p>
+		<p style="font-weight: bold">
+		I AGREE TO RELEASE AND HOLD HARMLESS the equipment rental facility, its employees, owners, affiliates, agents, officers, directors, and the equipment manufacturers and distributors and their successors in interest (collectively "PROVIDERS"), from all liability for injury, death. property loss and damage which results from the equipment user's participation in the RECREATIONAL SNOW SPORTS for which the equipment is provided, or which is related in any way to the use of this equipment, including all liability which results from the NEGLIGENCE of PROVIDERS, or any other person or cause.
+		</p>
+		<p>
+		I further agree to defend and indemnify PROVIDERS for any or damage, including any that results from claims or lawsuits for personal injury, death, and property loss and damage related in any way to the use of this equipment.
+		</p>
+		<p>
+		This agreement is governed by the applicable law of this state or province. If any provision of this agreement is determined to be unenforceable, all other provisions shall be given full force and effect.
+		</p>
+		
+		<h6 style="margin: 0px 0px 0px 3px;">
+			I THE UNDERSIGNED, HAVE READ AND UNDERSTAND THIS EQUIPMENT RENTAL & LIABILITY RELEASE AGREEMENT.
+		</h6>
+		<table id="signatureOfTheEquipmentUser" width="100%" >
+			<tr>
+				<td width="65%">
+					<div class="signatureLine"></div>
+				</td>
+				<td width="5%">
+				</td>
+				<td width="30%">
+					<div class="dateLine"></div>
+				</td>				
+			</tr>
+			<tr>
+				<td width="65%">
+					<div class="signatureSubText">Signature of the Equipment User</div>
+				</td>
+				<td width="5%">
+				</td>
+				<td width="30%">
+					<div class="signatureSubText">Date</div>
+				</td>				
+			</tr>
+			<tr>
+				<td colspan="3">
+					<p>Parent/Guardian/Agent: I verify that I am the Parent, guardian, or agent of the Equipment User and that I have the authority to enter into the agreement on behalf of the Equipment User and I agree to be bound by the terms of the Warning, Assumption of Risk, Liability Release, Indemnity and Hold Harmless agreement and Agreement Not to Sue on this document.</p>
+				</td>
+			</tr>
+			<tr>
+				<td width="65%">
+					<div class="signatureLine"></div>
+				</td>
+				<td width="5%">
+				</td>
+				<td width="30%">
+					<div class="dateLine"></div>
+				</td>				
+			</tr>
+			<tr>
+				<td width="65%">
+					<div class="signatureSubText">Signature of the Parent/Guardian/Agent (if not adult user)</div>
+				</td>
+				<td width="5%">
+				</td>
+				<td width="30%">
+					<div class="signatureSubText">Date</div>
+				</td>				
+			</tr>
+		</table>				
+	</div>
+</div> <!-- end ercForm_mainPrintDIV div -->
+
+
+
+<!-- this is the main shell for the html print form -->
+<!-- this is the main shell for the html print form -->
+<!-- this is the main shell for the html print form -->
+<!-- this is the main shell for the html print form -->
+<!-- this is the main shell for the html print form -->
+<script id="print-header" type="text/x-jquery-tmpl">
+	<!doctype html>
+   <html>
+   <head>
+	
+       	<link href="css/ercPrint.css" rel="stylesheet">
+   </head>
+<!--    <body onload="window.print()"> -->
+    <body>
+
+</body>
+    </html>
+</script>
+
+<script>
+
+</script>			
+			
